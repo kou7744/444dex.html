@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тимчасова Пошта</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/email.css">
+    <link rel="stylesheet" href="styles/message.css">
+    <link rel="stylesheet" href="styles/notification.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Тимчасова Пошта</h1>
+        <p class="subtitle">Безпечна та анонімна тимчасова електронна пошта</p>
+    </header>
+
+    <main class="container">
+        <div class="email-box">
+            <div class="email-controls">
+                <input type="text" id="email-address" readonly value="loading..." class="email-input">
+                <button class="copy-btn">Копіювати</button>
+                <button class="refresh-btn">Оновити</button>
+            </div>
+
+            <div class="inbox">
+                <h2>Вхідні повідомлення</h2>
+                <div class="messages">
+                    <p class="no-messages">Немає нових повідомлень</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <h3>Особливості сервісу:</h3>
+            <ul>
+                <li>Миттєве створення пошти</li>
+                <li>Без реєстрації</li>
+                <li>Повна анонімність</li>
+                <li>Автоматичне видалення через 10 хвилин</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Тимчасова Пошта. Всі права захищено.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
