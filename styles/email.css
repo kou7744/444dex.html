@@ -1,0 +1,59 @@
+.email-box {
+    background: white;
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: var(--spacing);
+}
+
+.email-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    font-size: 1.1em;
+    background: #f8f9fa;
+}
+
+.inbox {
+    margin-top: var(--spacing);
+}
+
+.inbox h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.messages {
+    min-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+}
+
+.no-messages {
+    text-align: center;
+    color: #666;
+    margin-top: 70px;
+}
+
+.copy-btn {
+    background-color: var(--primary-color);
+}
+
+.copy-btn:hover {
+    background-color: #234567;
+}
+
+.refresh-btn {
+    background-color: #27ae60;
+}
+
+.refresh-btn:hover {
+    background-color: #219a52;
+}
